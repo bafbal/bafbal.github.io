@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-image: url('assets/topography.png');
+    font-family: 'Roboto Mono';
+    /*padding: 0, 10%; */
+}
+.text { /* comment */
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#job-position {
+    color: #ff0099;
+}
+
+#dashes {
+    text-align: center;
+}
+
+#techWiki {
+    text-align: center;
+}
+
+a {
+    color: #ff0099;
+}
+
+#header {
+    background-color: #333333;
+    height: 52px;
+}
+
+#aperture {
+    margin-left: 200%;
+    margin-top: 10px;
+    height: 32px;
+}
+
+
+#home {
+    position: absolute;
+    top: 20px;
+    right: 400px;
+}
+
+#wiki {
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}
+
+#github {
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+/*.header-Pic::after {
+    content: "...";
+    display: block;
+    text-align: center;
+} */
+
