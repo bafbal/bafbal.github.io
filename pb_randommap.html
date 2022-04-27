@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Baffi Bálint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div style="display: inline-block;">
+            <img src="assets/aperture.svg" alt="aperture" id="aperture">
+        </div>
+        <nav class="menu" style="display: inline-block;">
+            <!-- comment-->
+            <span><a href="index.html" id="home">HOME</a></span>
+            <span><a href="about.html" target="blank" id="cv">ABOUT</a></span>
+            <span><a href="https://github.com/bafbal/bafbal.github.io" target="blank" id="github">GITHUB</a></span>
+            <span><a href="https://www.linkedin.com/in/balint-baffi/" target="blank" id="linkedin">LINKEDIN</a></span>
+        </nav>
+
+    </div>
+
+    <div class="text">
+        <h1>Véletlenszerű térképgenerálás</h1>
+        <p>A cél egy olyan mátrix véletlenszerű generálása, ahol az összes nullából az összes elérhető.</p>
+        <p id="dashes">- - -</p>
+        <h3>Rekurzív algoritmus</h3>
+        <p>Ay eredeti kód csak a findFloorSquares volt, a kommentezett sorokkal. Így azonban egy 11x11-es pálya már verem túlcsordulást okozott, lévén több ezerre nőtt a számuk. Ezért kettébontottam az eljárást, így már egy 50x50-es pályával is elboldogul.</p>
+        <img src="assets/progbasics/randommap/code_recursion.png" alt="Recursion">
+        <p></p>
+        <h3>A rekurzív eljárást használó kód</h3>
+        <p>Lerakunk egy falat, és a bal felső sarokból indulva megnézzük, hogy a rekurzív eljárásunk segítségével hány mezőt érünk el. Ha ez annyi, amennyit a mátrix mérete és a falak száma alapján várhatunk, akkor lerakhatjuk a következő falat. Ha kevesebb mezőt érünk el, azt jelenti, hogy elzártunk bizonyos mezőket. Ilyenkor a falat visszavesszük, és egy új véletelen pozícióval próbálkozunk.</p>
+        <img src="assets/progbasics/randommap/code_main.png" alt="Code using recursive algorithm">
+    </div>
+
+</body>
+
+</html>

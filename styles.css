@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-#techWiki {
+#progbasics {
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ a {
     right: 400px;
 }
 
-#wiki {
+#cv {
     position: absolute;
     top: 20px;
     right: 300px;
@@ -62,10 +62,3 @@ a {
     top: 20px;
     right: 80px;
 }
-
-/*.header-Pic::after {
-    content: "...";
-    display: block;
-    text-align: center;
-} */
-

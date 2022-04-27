@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Baffi Bálint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div style="display: inline-block;">
+            <img src="assets/aperture.svg" alt="aperture" id="aperture">
+        </div>
+        <nav class="menu" style="display: inline-block;">
+            <!-- comment-->
+            <span><a href="index.html" id="home">HOME</a></span>
+            <span><a href="about.html" target="blank" id="cv">ABOUT</a></span>
+            <span><a href="https://github.com/bafbal/bafbal.github.io" target="blank" id="github">GITHUB</a></span>
+            <span><a href="https://www.linkedin.com/in/balint-baffi/" target="blank" id="linkedin">LINKEDIN</a></span>
+        </nav>
+
+    </div>
+
+    <div class="text">
+        <h1>Amőba</h1>
+        <p>Kicsit sárgább, kicsit savanyúbb, de a mienk. Az első OOP kódom :)</p>
+        <p id="dashes">- - -</p>
+        <h3>A gép lépésének meghatározása</h3>
+        <ul>Adott a következő hierachia:
+            <li>1) Nyerni egy lépésben, ha lehetséges</li>
+            <li>2) Megakadályozni, hogy nyerjek egy lépésben</li>
+            <li>3) Ha egyik fenti eset sem áll fent, akkor véletlenszerűen lépni.</li>
+        </ul>
+        <p>A program rendelkezik egy, az állást kiértékelő (nyert pozíciót azonosító) algoritmussal. Veszi a szabályos lépéseket, és mindegyikhez hozzárendeli a lépés utáni állást. Ha ezek között nyerőt talál, akkor a gép ezt a lépést fogja lépni. Engem ugyanígy akadályoz meg a nyerésben: "elképzeli", hogy én jövök, és ha meg tudnám nyerni egy lépésben a játékot, akkor azt a lépést megtéve húzza keresztül a számításomat.</p>
+        <img src="assets/progbasics/tictactoe/getWiseStep.png" alt="make intelligent move">
+    </div>
+
+</body>
+
+</html>

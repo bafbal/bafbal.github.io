@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Baffi Bálint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div style="display: inline-block;">
+            <img src="assets/aperture.svg" alt="aperture" id="aperture">
+        </div>
+        <nav class="menu" style="display: inline-block;">
+            <!-- comment-->
+            <span><a href="index.html" id="home">HOME</a></span>
+            <span><a href="about.html" target="blank" id="cv">ABOUT</a></span>
+            <span><a href="https://github.com/bafbal/bafbal.github.io" target="blank" id="github">GITHUB</a></span>
+            <span><a href="https://www.linkedin.com/in/balint-baffi/" target="blank" id="linkedin">LINKEDIN</a></span>
+        </nav>
+
+    </div>
+
+    <div class="text">
+        <h1>Aknakereső</h1>
+        <p>2 hétig vártam rá, hogy összeálljon a fejemben a kép a rekurziót illetően. Amikor ez megtörtént, első dolgom volt megírni ezt a kódot.</p>
+        <p id="dashes">- - -</p>
+        <h3>Szomszédos mezők meghatározása</h3>
+        <p>Midegyik mező egy objektum, amely egy-egy listát tárol el a szomszédos mezőiről: egy négyes listát a kereszt alakban szomszédosakról, illetve egy nyolcelemű listában a sarokban szomszédosak is szerepelnek. Előbbi a kijelzendő számhoz szükséges, utóbbi a "nullás expanzióhoz". Ez az, amikor nullás mezőre kattintunk, és nem egy nulla jelenik meg, hanem egy üres mező, ami szétterjed addig, amíg számba nem ütközik.</p>
+        <p>Ezért a két listáért az alábbi képvers felel:</p>
+        <img src="assets/progbasics/minesweeper/neighbourFind.png" alt="Finding neighbours">
+        <p></p>
+        <h3>"Nullás expanzió"</h3>
+        <p>a.k.a. "élesben" először alkalmazott rekurzív algoritmusom</p>
+        <img src="assets/progbasics/minesweeper/showSquare.png" alt="Zero expansion">
+    </div>
+
+</body>
+
+</html>
