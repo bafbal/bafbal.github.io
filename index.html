@@ -16,8 +16,8 @@
         <nav class="menu" style="display: inline-block;">
             <!-- comment-->
             <span><a href="index.html" id="home">HOME</a></span>
-            <span><a href="about.html" target="blank" id="cv">ABOUT</a></span>
-            <span><a href="https://github.com/bafbal/demo_apps" target="blank" id="github">GITHUB</a></span>
+            <span><a href="about_EN.html" target="blank" id="cv">ABOUT</a></span>
+            <span><a href="https://github.com/bafbal" target="blank" id="github">GITHUB</a></span>
             <span><a href="https://www.linkedin.com/in/balint-baffi/" target="blank" id="linkedin">LINKEDIN</a></span>
         </nav>
 
@@ -25,39 +25,46 @@
 
     <div class="text">
         <h1>Baffi Bálint</h1>
-        <p>vagyok, <strong>Java backend </strong> fejlesztőnek tanulok a <strong>Green Fox Academy</strong> szuperintenzív képzésén. Ez az oldal az utam mérföldköveit mutatja be önálló munkáimon keresztül.</p>
+        <p>my name is, and I am in the job seeking period after having cleared the <strong>Junior Software Developer </strong> course at <strong>Green Fox Academy</strong> specialized in <strong>Java backend development.</strong> This is my personal webpage aiming to introduce myself and showcase my skills by presenting my individual work.</p>
+
         <p id="dashes">- - -</p>
-        <h2 id="progbasics">Programozási alapok</h2>
+        <h2 id="progbasics">Algorithmic exercises</h2>
+        <p>Algoritmic exercises are significant and indispensable part of my daily routine as a programmer. They keep my routine of Java "in my hand" and offer a great opportunity for personal development. I especially love the site CodeWars, there I was already able to learn a lot (about Java streams for example) checking out other programmers' solutions. I find especially one-liner stream and regex solutions really inspiring.</p>
+        <p>While earlier I completed this tasks the way I could on my own and by heart and as fast as possible (preparing for Green Fox Academy final exam entry), recently I think about what I need and research it. This way I gradually improve myself for example regarding streams and regex. For the whole list of my solutions check out my GitHub repository. Below is one of my recent (2022/09/05) solution, one of my first one-liners. This code returns a boolean depending on whether array b contains precisely the squares of a in voluntary order.</p>
+        <img src="assets/algorithmic_exercises/one_liner_mid.png" alt="one liner method">
+        <p id="dashes">- - -</p>
+        <h2 id="progbasics">Programming basics</h2>
+        <p>I wrote these programs at the beginning of the training. Although they certainly do not reflect the way I code today after having cleared the bootcamp and many coding challenges on Hackerrank and Codewars I still find it important to show these pieces of work because my genuine passion for programming is very well expressed by them.</p>
         <h3>OOP</h3>
         <h4>Snake</h4>
         <img src="assets/progbasics/snake/screenshot_resized.png" alt="Screenshot from snake game">
-        <p>A népszerű játéknak egy többszemélyes implementációját készítettem el. Élmény játszani, és az eddigi legkiforrottabb kódom OOP szempontjából.</p>
+        <p>I created a multiplayer implementation of the popular game. It is fun to play it so that it occupied my son for half an hour - I can call it my first not self-purposed code. At that time it was my most object-oriented code.</p>
         <a href="pb_oop_snake.html">UML</a>
-        <h3>Algoritmusok, programszerkezet</h3>
-        <h4>Véletlenszerű pálya generálása egy játékhoz</h4>
+        <h3>ALgorithms, structures</h3>
+        <h4>Create a random map for a game</h4>
         <img src="assets/progbasics/randommap/screenshot.png" alt="Screenshot of a matrix representing a random generated map">
-        <p>A fenti mátrixban a hármasok reprezentálják a falakat, a nullák pedig a bejárható területeket. Cél: egy mxn-es pályán x db "fal" véletlenszerű lerakása úgy, hogy az összes nem fal mező elérhető legyen bármelyik nem fal mezőről.</p>
-        <a href="pb_randommap.html">kód a rekurzív algoritmusról, az azt felbontó ciklusról, illetve a fő kódról</a>
-        <h4>Sierpinski szőnyeg</h4>
+        <p>Walls are represented by "3"-s and available areas by zeros in the above matrix. Task: put down x walls on an mxn map randomly in such way that any available field can be reached from any.</p>
+        <a href="pb_randommap.html">code of recursive algorithm, the cycle splitting it up and the main code itself</a>
+        <h4>Sierpinski carpet</h4>
         <img src="assets/progbasics/sierpinski/screenshot_resized.png" alt="Sierpinski carpet">
-        <p>Miután az aknakeresőben sikeresen alkalmaztam a rekurziót a gyakorlatban, úgy éreztem, itt az ideje egy fraktálábrának. Egész tömören sikerült is lekódolnom.</p>
+        <p>After landing a recursion code successfully in the minesweeper game I felt it was high time to create a fractal. It ended up pretty well packed.</p>
         <a href="pb_sierpinski.html">kód</a>
-        <h4>Aknakereső</h4>
+        <h4>Minesweeper</h4>
         <img src="assets/progbasics/minesweeper/screenshot.png" alt="lost game">
         <img src="assets/progbasics/minesweeper/screenshot2 (3).png" alt="won game">
-        <p>Bár OOP szempontjából egyszerű feladatnak tűnt, a nullás mezők expanziója során olyan nyalánkságokat sikerült implementálnom, mint négyszeresen beágyazott iteráció ("forfor"), XOR operátor, rekurzió.</p>
-        <a href="pb_minesweeper.html">kód a fenti nyalánkságokról</a>
-        <h4>Amőba</h4>
+        <p>Although it seemed to be easy from OOP point of view, while coding the expansion of zero fields I managed to implement such delicacies as four times nested iteration, XOR operator, recursion.</p>
+        <a href="pb_minesweeper.html">code about above delicacies</a>
+        <h4>Tic-tac-toe</h4>
         <img src="assets/progbasics/tictactoe/screenshot_machineWins.png" alt="computer wins">
         <img src="assets/progbasics/tictactoe/screenshot_humanWins.png" alt="human wins">
-        <p>A gép lépést keres a következő prioritások alapján:</p>
+        <p>Computer finds moves based on following priorities:</p>
         <ul>
-            <li>1) Nyer egy lépésben, ha lehetséges</li>
-            <li>2) Megakadályozza, hogy nyerjek egy lépésben</li>
-            <li>3) Ha egyik fenti eset sem áll fent, akkor véletlenszerűen lép.</li>
+            <li>1) Wins in one move</li>
+            <li>2) Prevents human to win in one move</li>
+            <li>3) Select a random move.</li>
         </ul>
-        <p>Disclaimer: ezt a kódot azon az estén készítettem el, amikor először tanultam az OOP fogalmáról. Az egységbe zárás (encapsulation) csak másnap következett, ennek fényében értékelendő a kód. Várhatóan le fogom kódolni később "rendesen" is, továbbfejleszthető formában, grafikával. Ezt itt hagyom emléknek :)</p>
-        <a href="pb_tictactoe.html">kód</a>
+        <p>Disclaimer: I coded this the very evening we learned about OOP concept. Of course it could be done in a much more decent way, but I leave it here as a good memory :)</p>
+        <a href="pb_tictactoe.html">code</a>
     </div>
 
 </body>
